@@ -8,7 +8,7 @@ import { AdvertisementDetailComponent } from './advertisement-detail/advertiseme
 import {HttpClientModule} from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-// test 1
+// test 2
 
 @NgModule({
   declarations: [

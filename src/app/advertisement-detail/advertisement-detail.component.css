@@ -1,0 +1,21 @@
+/*.container {*/
+/*  width: 100%;*/
+/*}*/
+
+ul {
+  list-style-type: none;
+  margin: 20px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  margin: 5px;
+  /*max-height: 500px;*/
+  /*max-width: 400px;*/
+}
+
+h5, p.name{
+  margin: 3px;
+}

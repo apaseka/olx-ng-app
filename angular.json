@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "olx-ng-app": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "olx-ng-app"
+    }
+  },
+  "defaultProject": "olx-ng-app",
+  "cli": {
+    "analytics": "3c6a3881-dbe0-44e9-9db6-9cb0548068db"
+  }
 }

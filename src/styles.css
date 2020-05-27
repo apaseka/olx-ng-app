@@ -1,1 +1,98 @@
 /* You can add global styles to this file, and also import other style files */
+/*h1 {*/
+/*  color: #369;*/
+/*  font-family: Arial, Helvetica, sans-serif;*/
+/*  font-size: 250%;*/
+/*}*/
+/*h2, h3 {*/
+/*  color: #444;*/
+/*  font-family: Arial, Helvetica, sans-serif;*/
+/*  font-weight: lighter;*/
+/*}*/
+/*body {*/
+/*  margin: 2em;*/
+/*}*/
+/*body, input[type="text"], button {*/
+/*  color: #333;*/
+/*  font-family: Cambria, Georgia;*/
+/*}*/
+/*!* everywhere else *!*/
+/** {*/
+/*  font-family: Arial, Helvetica, sans-serif;*/
+/*}*/
+
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
+
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+
+h2, h3 {
+  color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+body {
+  margin: 2em;
+}
+
+body, input[type="text"], button {
+  color: #333;
+  font-family: Cambria, Georgia;
+  margin: 15px;
+}
+
+/* everywhere else */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: "Nunito", "sans-serif";
+  font-size: 18px;
+}
+
+/*.container {*/
+/*  width: 80%;*/
+/*  margin: 0 auto;*/
+/*}*/
+
+header {
+  /*background:  primary;*/
+  padding: 1em 0;
+}
+
+/*a {*/
+/*  !*color: white;*!*/
+/*  text-decoration: none;*/
+/*}*/
+
+a.logo {
+  font-weight: bold;
+}
+
+/*nav {*/
+/*  float: right;*/
+/*}*/
+
+/*ul {*/
+/*  list-style-type: none;*/
+/*  margin: 0;*/
+/*  display: flex;*/
+/*}*/
+
+li {
+  padding: 1em;}
+a.country {
+  padding: 1em;}
+
+h1 {
+  margin-top: 2em;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

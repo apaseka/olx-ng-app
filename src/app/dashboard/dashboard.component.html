@@ -1,0 +1,33 @@
+<button (click)="sortByValue(advertisements)">sort by value</button>
+<button (click)="sortByDate(advertisements)">sort by date</button>
+<ul *ngIf="advertisements">
+  <li *ngFor="let brew of (advertisements)">
+    <!--    <p class="name">{{ brew.location }}</p>-->
+    <a class="country" href="/detail/{{brew.externalId2}}">{{ brew.advTitle }} <br>{{brew.olxDate.substr(0,10)}} </a>
+    <!--    <a href="/detail/{{brew.id}}">-->
+
+      <img *ngIf="brew.mainImage" class="card-img-top" src="{{brew.mainImage}}" alt="Card image cap">
+      <div class="centered">{{brew.price}}</div>
+
+    <!--    </a>-->
+  </li>
+</ul>
+
+<!--<h3>Top Heroes</h3>-->
+<!--<div class="container">-->
+<!--  <div class="grid grid-pad ">-->
+<!--    <a *ngFor="let hero of advertisements" class="col-1-4"-->
+<!--       routerLink="/detail/{{hero.id}}">-->
+<!--      <div class="card">-->
+<!--        <img class="card-img-top" src="{{hero.mainImage}}" alt="Card image cap">-->
+<!--        <div class="card-body">-->
+<!--          <h5 class="card-title">{{hero.advTitle}}</h5>-->
+<!--          <p class="card-text">{{hero.price}}</p>-->
+<!--          <p class="card-text"><small class="text-muted">{{hero.location}}</small></p>-->
+<!--          <p class="card-text"><small class="text-muted">{{hero.publishedDate}}</small></p>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </a>-->
+<!--  </div>-->
+<!--</div>-->
+

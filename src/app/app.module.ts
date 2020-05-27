@@ -8,7 +8,6 @@ import { AdvertisementDetailComponent } from './advertisement-detail/advertiseme
 import {HttpClientModule} from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-// import { MatSliderModule } from '@angular/material/slider/slider-module';
 
 @NgModule({
   declarations: [

@@ -21,7 +21,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HttpClientModule,
     AppRoutingModule,
     FormsModule,
-    // MatSliderModule,
+
     BrowserAnimationsModule
   ],
   providers: [],
